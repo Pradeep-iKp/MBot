@@ -264,11 +264,11 @@ async def stats(event):
 @client(incoming=True)
 async def start(event):
     text = """
-**🌟 This bot is currently under maintenance and not able to work!**    
-__Check again after sometime!__
+**The bot is currently under maintenance and Down! Because My Paid Server's hours Expired now!**\n    
+I'll Soon try to Up!\n• Thank You!"""
 
-**🔗 By - @SafeGuardingBot**
-    """
+
+#   
     await event.client.send_message(
         event.chat.id,
         text
